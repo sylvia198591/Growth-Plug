@@ -28,7 +28,7 @@ import pyfacebook
 # print(api.get_app_token(return_json=True))
 # print(access_token)
 from facebook import GraphAPI
-# graph=GraphAPI(access_token="EAAnaWYZCIV5oBAMtZCNEuMwsLpboSnyqLKRZBLyZBO3yGa3NZChXiZBoXV9LSEBkJn9REQMGGgGkom3aP6bOAbZAvpKZAVq8fejDUWmxv4ZAZAZAgWQJCM909dpVSAITZAWiX2ksNdpsZAbESSYaXnXiEuNexmwBTcORpmr5QWlkGyBEwYAs4EWSfLYOJANTKkBahpELdN3LwYAgIYgZDZD")
+# graph=GraphAPI(access_token="EAAnaWYZCIV5oBAA7pmub8W8g6xnPptF5l6SC2UqVpdYyGmwEYSQOAXnc7xXSzwMAU4aZBXdmInfcczQXZAnutO9vaZBED41ZBso0XQZCQ8zgIRtmZCIcpggC3XlQjHR1oCQ9W67XStkpoGZAJlK6YNzRCVGfdllCg4e3Kv61rr7UhgZDZD")
 # objects1=graph.get_object("me",fields="accounts")
 # user=graph.get_object("me",fields="id,name")
 # print(user)
@@ -80,7 +80,7 @@ class viewpgdtl(TemplateView):
 
         #
         graph = GraphAPI( \
-            access_token="EAAnaWYZCIV5oBADaPaZAYHl7ovqdV0yKGVtZCWitnYYLagFbiWTstwGC5GKqqHLWL5yiBcMCLyIzeTlQc3J8XEOjNZAx0CC2Ov2p6mpO7yrud8zWkQyFnI9AnmyxRtbbmrzHiLLZB8OWkAT7lldPDPNBej8pgnFZAltsWB9FMVaHewhZCA45zirgRLr5ZCd0yVv100ZAFDloJywZDZD")
+            access_token="EAAnaWYZCIV5oBAA7pmub8W8g6xnPptF5l6SC2UqVpdYyGmwEYSQOAXnc7xXSzwMAU4aZBXdmInfcczQXZAnutO9vaZBED41ZBso0XQZCQ8zgIRtmZCIcpggC3XlQjHR1oCQ9W67XStkpoGZAJlK6YNzRCVGfdllCg4e3Kv61rr7UhgZDZD")
 
 
         objects1 = graph.get_object("me", fields="accounts")
